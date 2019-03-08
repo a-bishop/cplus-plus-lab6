@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F49663FA222DADC000E9CE46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49663F9222DADC000E9CE46 /* main.cpp */; };
+		F49663FA222DADC000E9CE46 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49663F9222DADC000E9CE46 /* Point.cpp */; };
+		F4966401222DAEA900E9CE46 /* Point.h in Sources */ = {isa = PBXBuildFile; fileRef = F4966400222DAEA900E9CE46 /* Point.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F49663F6222DADC000E9CE46 /* L6Q1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L6Q1; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49663F9222DADC000E9CE46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F49663F9222DADC000E9CE46 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		F4966400222DAEA900E9CE46 /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		F4966402222DAF8000E9CE46 /* TestSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestSuite.h; path = ../../../../../../../../Downloads/TestSuite.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F49663F8222DADC000E9CE46 /* L6Q1 */ = {
 			isa = PBXGroup;
 			children = (
-				F49663F9222DADC000E9CE46 /* main.cpp */,
+				F4966402222DAF8000E9CE46 /* TestSuite.h */,
+				F49663F9222DADC000E9CE46 /* Point.cpp */,
+				F4966400222DAEA900E9CE46 /* Point.h */,
 			);
 			path = L6Q1;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49663FA222DADC000E9CE46 /* main.cpp in Sources */,
+				F49663FA222DADC000E9CE46 /* Point.cpp in Sources */,
+				F4966401222DAEA900E9CE46 /* Point.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
